@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ticket_Issue__c</fullName>
+    <label>Ticket_Issue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Login Failure</fullName>
+                <default>false</default>
+                <label>Login Failure</label>
+            </value>
+            <value>
+                <fullName>Hardware Failure</fullName>
+                <default>false</default>
+                <label>Hardware Failure</label>
+            </value>
+            <value>
+                <fullName>Security Breach</fullName>
+                <default>false</default>
+                <label>Security Breach</label>
+            </value>
+            <value>
+                <fullName>Data Loss</fullName>
+                <default>false</default>
+                <label>Data Loss</label>
+            </value>
+            <value>
+                <fullName>Email Issues</fullName>
+                <default>false</default>
+                <label>Email Issues</label>
+            </value>
+            <value>
+                <fullName>Server Downtime</fullName>
+                <default>false</default>
+                <label>Server Downtime</label>
+            </value>
+            <value>
+                <fullName>VPN Problems</fullName>
+                <default>false</default>
+                <label>VPN Problems</label>
+            </value>
+            <value>
+                <fullName>Cloud Sync Issues</fullName>
+                <default>false</default>
+                <label>Cloud Sync Issues</label>
+            </value>
+            <value>
+                <fullName>Network Outage</fullName>
+                <default>false</default>
+                <label>Network Outage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

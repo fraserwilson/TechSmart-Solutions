@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_Tech__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Assigned Tech</label>
+    <referenceTo>Assigned_Tech__c</referenceTo>
+    <relationshipLabel>TechSmart_Clients</relationshipLabel>
+    <relationshipName>TechSmart_Clients</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
